@@ -18,9 +18,12 @@ struct FruitList: View {
     var body: some View {
         NavigationView {
             List {
+                
                 ForEach(fruits) { fruit in
-                    FruitRow(fruit: fruit)
-                        .padding(.vertical, 4)
+                    NavigationLink(destination: FruitDetailView(fruit: fruit)) {
+                        FruitRow(fruit: fruit)
+                            .padding(.vertical, 4)
+                    }
                 }
             }
             .navigationTitle("Fruits")
