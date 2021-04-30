@@ -10,6 +10,7 @@ import SwiftUI
 struct FruitList: View {
     // MARK: - Private properties
     private let fruits: [Fruit]
+    @State private var isShowingSettings: Bool = false
     
     init(fruits: [Fruit]) {
         self.fruits = fruits
@@ -27,6 +28,17 @@ struct FruitList: View {
                 }
             }
             .navigationTitle("Fruits")
+            .navigationBarItems(
+                trailing:
+                    Button(action: {
+                        isShowingSettings = true
+                    }) {
+                        Image(systemName: "slider.horizontal.3")
+                    }
+                    .sheet(isPresented: $isShowingSettings) {
+                        SettingsView()
+                    }
+            )
         }
     
     }
