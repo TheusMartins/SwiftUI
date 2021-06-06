@@ -16,6 +16,12 @@
 		C84B5D67263A4F950044C93A /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84B5D66263A4F950044C93A /* FruitNutrientsView.swift */; };
 		C853FF84263DD422001BECCA /* SectionLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853FF83263DD422001BECCA /* SectionLabelView.swift */; };
 		C853FF87263DD79E001BECCA /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853FF86263DD79E001BECCA /* SettingsRowView.swift */; };
+		C85F80CB266D7DB500752434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85F80CA266D7DB500752434 /* Assets.xcassets */; };
+		C85F80CE266D7DB500752434 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85F80CD266D7DB500752434 /* Preview Assets.xcassets */; };
+		C85F80DC266D7F3900752434 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = C85F80D8266D7F3900752434 /* category.json */; };
+		C85F80DD266D7F3900752434 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = C85F80D9266D7F3900752434 /* brand.json */; };
+		C85F80DE266D7F3900752434 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = C85F80DA266D7F3900752434 /* player.json */; };
+		C85F80DF266D7F3900752434 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = C85F80DB266D7F3900752434 /* product.json */; };
 		C88C654A263BA643005EA800 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88C6549263BA643005EA800 /* SettingsView.swift */; };
 		C88FB6812637B0BA0074B554 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88FB6802637B0BA0074B554 /* FruitCardView.swift */; };
 		C88FB6862637B4C70074B554 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88FB6852637B4C70074B554 /* StartButtonView.swift */; };
@@ -23,6 +29,10 @@
 		C89F86062635BE88004C4732 /* FruitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F86052635BE88004C4732 /* FruitList.swift */; };
 		C89F86082635BE89004C4732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89F86072635BE89004C4732 /* Assets.xcassets */; };
 		C89F860B2635BE89004C4732 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89F860A2635BE89004C4732 /* Preview Assets.xcassets */; };
+		C8FC5C1C266D81710060BCFC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC5C1A266D81710060BCFC /* HomeView.swift */; };
+		C8FC5C1D266D81710060BCFC /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC5C1B266D81710060BCFC /* TouchdownApp.swift */; };
+		C8FC5C2C266D83320060BCFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC5C2B266D83320060BCFC /* Constants.swift */; };
+		C8FC5C32266D83E50060BCFC /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC5C31266D83E50060BCFC /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +45,14 @@
 		C84B5D66263A4F950044C93A /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		C853FF83263DD422001BECCA /* SectionLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionLabelView.swift; sourceTree = "<group>"; };
 		C853FF86263DD79E001BECCA /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		C85F80C4266D7DB300752434 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85F80CA266D7DB500752434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C85F80CD266D7DB500752434 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C85F80CF266D7DB500752434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85F80D8266D7F3900752434 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		C85F80D9266D7F3900752434 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		C85F80DA266D7F3900752434 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		C85F80DB266D7F3900752434 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		C88C6549263BA643005EA800 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C88FB6802637B0BA0074B554 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		C88FB6852637B4C70074B554 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
@@ -44,9 +62,20 @@
 		C89F86072635BE89004C4732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C89F860A2635BE89004C4732 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C89F860C2635BE89004C4732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8FC5C1A266D81710060BCFC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C8FC5C1B266D81710060BCFC /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
+		C8FC5C2B266D83320060BCFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C8FC5C31266D83E50060BCFC /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C85F80C1266D7DB300752434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C89F85FD2635BE88004C4732 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +123,39 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		C85F80C5266D7DB300752434 /* Touchdown */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC5C2F266D83BD0060BCFC /* Home */,
+				C8FC5C2A266D831F0060BCFC /* Utility */,
+				C8FC5C1B266D81710060BCFC /* TouchdownApp.swift */,
+				C85F80D7266D7F2500752434 /* JsonFiles */,
+				C85F80CA266D7DB500752434 /* Assets.xcassets */,
+				C85F80CF266D7DB500752434 /* Info.plist */,
+				C85F80CC266D7DB500752434 /* Preview Content */,
+			);
+			path = Touchdown;
+			sourceTree = "<group>";
+		};
+		C85F80CC266D7DB500752434 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C85F80CD266D7DB500752434 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C85F80D7266D7F2500752434 /* JsonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C85F80D9266D7F3900752434 /* brand.json */,
+				C85F80D8266D7F3900752434 /* category.json */,
+				C85F80DA266D7F3900752434 /* player.json */,
+				C85F80DB266D7F3900752434 /* product.json */,
+			);
+			path = JsonFiles;
+			sourceTree = "<group>";
+		};
 		C88C6548263BA62F005EA800 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				C89F86022635BE88004C4732 /* Fructus */,
+				C85F80C5266D7DB300752434 /* Touchdown */,
 				C89F86012635BE88004C4732 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				C89F86002635BE88004C4732 /* Fructus.app */,
+				C85F80C4266D7DB300752434 /* Touchdown.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,9 +233,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C8FC5C2A266D831F0060BCFC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC5C2B266D83320060BCFC /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C8FC5C2F266D83BD0060BCFC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC5C30266D83CD0060BCFC /* Subviews */,
+				C8FC5C1A266D81710060BCFC /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C8FC5C30266D83CD0060BCFC /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC5C31266D83E50060BCFC /* FooterView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C85F80C3266D7DB300752434 /* Touchdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85F80D0266D7DB500752434 /* Build configuration list for PBXNativeTarget "Touchdown" */;
+			buildPhases = (
+				C85F80C0266D7DB300752434 /* Sources */,
+				C85F80C1266D7DB300752434 /* Frameworks */,
+				C85F80C2266D7DB300752434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touchdown;
+			productName = Touchdown;
+			productReference = C85F80C4266D7DB300752434 /* Touchdown.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C89F85FF2635BE88004C4732 /* Fructus */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C89F860F2635BE89004C4732 /* Build configuration list for PBXNativeTarget "Fructus" */;
@@ -198,6 +304,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					C85F80C3266D7DB300752434 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
 					C89F85FF2635BE88004C4732 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -217,11 +327,25 @@
 			projectRoot = "";
 			targets = (
 				C89F85FF2635BE88004C4732 /* Fructus */,
+				C85F80C3266D7DB300752434 /* Touchdown */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C85F80C2266D7DB300752434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85F80DE266D7F3900752434 /* player.json in Resources */,
+				C85F80DC266D7F3900752434 /* category.json in Resources */,
+				C85F80DD266D7F3900752434 /* brand.json in Resources */,
+				C85F80CE266D7DB500752434 /* Preview Assets.xcassets in Resources */,
+				C85F80CB266D7DB500752434 /* Assets.xcassets in Resources */,
+				C85F80DF266D7F3900752434 /* product.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C89F85FE2635BE88004C4732 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +358,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C85F80C0266D7DB300752434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FC5C1C266D81710060BCFC /* HomeView.swift in Sources */,
+				C8FC5C32266D83E50060BCFC /* FooterView.swift in Sources */,
+				C8FC5C1D266D81710060BCFC /* TouchdownApp.swift in Sources */,
+				C8FC5C2C266D83320060BCFC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C89F85FC2635BE88004C4732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +393,51 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		C85F80D1266D7DB500752434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Touchdown/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Touchdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theus.Touchdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C85F80D2266D7DB500752434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Touchdown/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Touchdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theus.Touchdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C89F860D2635BE89004C4732 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,6 +599,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C85F80D0266D7DB500752434 /* Build configuration list for PBXNativeTarget "Touchdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85F80D1266D7DB500752434 /* Debug */,
+				C85F80D2266D7DB500752434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C89F85FB2635BE88004C4732 /* Build configuration list for PBXProject "Fructus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
