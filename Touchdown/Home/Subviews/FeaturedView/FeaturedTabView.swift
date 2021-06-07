@@ -9,10 +9,10 @@ import SwiftUI
 
 struct FeaturedTabView: View {
     // MARK: - Private properties
-    private let players: [PlayerModel]
+    private let players: [PlayerAndBrandModel]
     
     // MARK: - Initialization
-    init(players: [PlayerModel]) {
+    init(players: [PlayerAndBrandModel]) {
         self.players = players
     }
     

@@ -9,10 +9,10 @@ import SwiftUI
 
 struct FeaturedItemView: View {
     // MARK: - Private properties
-    private let player: PlayerModel
+    private let player: PlayerAndBrandModel
     
     // MARK: - Initialization
-    init(player: PlayerModel) {
+    init(player: PlayerAndBrandModel) {
         self.player = player
     }
     

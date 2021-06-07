@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PlayerModel: Codable, Identifiable {
+struct PlayerAndBrandModel: Codable, Identifiable {
     let id: Int
     let image: String
 }

@@ -12,4 +12,15 @@ let colorBackground: Color = Color("colorBackground")
 let projectGray: Color = Color(UIColor.systemGray4)
 
 //Data
-let players: [PlayerModel] = Bundle.main.decode(fileName: "player.json")
+let players: [PlayerAndBrandModel] = Bundle.main.decode(fileName: "player.json")
+let categories: [CategoryModel] = Bundle.main.decode(fileName: "category.json")
+let products: [ProductModel] = Bundle.main.decode(fileName: "product.json")
+let brands: [PlayerAndBrandModel] = Bundle.main.decode(fileName: "brand.json")
+
+//Layout
+
+let columnSpacing: CGFloat = 10
+let rowSpacing: CGFloat = 10
+var gridLayout: [GridItem] {
+    return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
+}
