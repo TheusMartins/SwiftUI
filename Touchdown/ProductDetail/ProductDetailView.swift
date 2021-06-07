@@ -13,30 +13,63 @@ struct ProductDetailView: View {
     
     // MARK: - View
     var body: some View {
-        VStack(alignment: .leading, spacing: 5) {
-            //NavBar
-            NavigationBarDetailView()
+        ZStack {
+            VStack(alignment: .leading, spacing: 5) {
+                //NavBar
+                NavigationBarDetailView()
+                    .padding(.horizontal)
+                    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                //Header
+                HeaderView(headerTitle: product.name)
+                    .padding()
+                
+                //Detail top part
+                TopPartDetailView(product: product)
+                    .padding(.horizontal)
+                    .zIndex(1)
+                
+                //Detail bottom part
+                VStack(alignment: .center, spacing: 0) {
+                    //Rating + sizes
+                    RatingsSizesDetailView()
+                        .padding(.top, -20)
+                        .padding(.bottom, 10)
+                        .padding(.horizontal)
+                        .zIndex(1)
+                    
+                    ScrollView(.vertical, showsIndicators: false) {
+                        //Description
+                        Text(product.description)
+                            .font(.system(.body, design: .rounded))
+                            .foregroundColor(.gray)
+                            .multilineTextAlignment(.leading)
+                    }
+                    
+                    //Quantity + favourite
+                    QuantityFavouriteDetailView()
+                        .padding(.vertical, 20)
+                        .zIndex(1)
+                    
+                    //Add to cart
+                    AddToCartView(product: product)
+                        .padding(.bottom, 20)
+                    
+                }
                 .padding(.horizontal)
-                .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-            //Header
-            HeaderView(headerTitle: product.name)
-                .padding()
-            
-            //Detail top part
-            TopPartDetailView(product: product)
-                .padding(.horizontal)
-            //Detail bottom part
-            //Rating + sizes
-            //Description
-            //Quantity + favourite
-            //Add to cart
-            Spacer()
+                .background(
+                    Color.white
+                        .clipShape(CustomShape())
+                        .padding(.top, -105)
+                )
+                .zIndex(0)
+            }
+            .ignoresSafeArea(.all, edges: .all)
+            .background(
+                product.rgbColor
+                    .ignoresSafeArea(.all, edges: .all)
+            )
         }
-        .ignoresSafeArea(.all, edges: .all)
-        .background(
-            product.rgbColor
-                .ignoresSafeArea(.all, edges: .all)
-        )
+        
     }
 }
 
