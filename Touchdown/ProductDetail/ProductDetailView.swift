@@ -51,7 +51,7 @@ struct ProductDetailView: View {
                         .zIndex(1)
                     
                     //Add to cart
-                    AddToCartView(product: product)
+                    AddToCartView()
                         .padding(.bottom, 20)
                     
                 }
